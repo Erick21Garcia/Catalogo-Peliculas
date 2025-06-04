@@ -47,14 +47,23 @@ Este proyecto es una aplicación de catálogo de películas construida con **Lar
 ```bash
 git clone https://github.com/tuusuario/catalogo-peliculas.git
 cd catalogo-peliculas
+```
 
+### 2. Configura el backend (Laravel)
+
+```bash
 cd backend
 cp .env.example .env
 composer install
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
+```
 
+### 3. Configura el frontend (React)
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
