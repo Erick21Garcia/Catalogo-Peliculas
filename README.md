@@ -52,7 +52,7 @@ cd catalogo-peliculas
 ### 2. Configura el backend (Laravel)
 
 ```bash
-cd backend
+cd api-peliculas
 cp .env.example .env
 composer install
 php artisan key:generate
@@ -63,7 +63,7 @@ php artisan serve
 ### 3. Configura el frontend (React)
 
 ```bash
-cd frontend
+cd frontend-peliculas
 npm install
 npm run dev
 ```
